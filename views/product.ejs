@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Detalle del producto</title>
+</head>
+
+<body>
+    <h1>Detalle del producto</h1>
+    <h2>
+        <%= product.title %>
+    </h2>
+    <p>
+        <%= product.description %>
+    </p>
+    <p>Precio: $<%= product.price %>
+    </p>
+    <img src="<%= product.thumbnail %>" alt="Imagen del producto">
+</body>
+
+</html>
